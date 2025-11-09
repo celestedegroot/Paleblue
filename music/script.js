@@ -11,13 +11,13 @@ const cover = document.getElementById('cover');
 const songs = ["Don't Let Go", "Drifting", "Getting Better", "Heartworm", "Selfish", "Weak Days", "Weekdays"]
 
 let songIndex = 0
-audio.volume = 0.1
+audio.volume = 0.4
 
 loadSong(songs[songIndex])
 
 function loadSong(song) {
     title.innerText = song
-    audio.src = `Music/${song}.mp3`
+    audio.src = `/music/${song}.mp3`
 }
 
 function playSong() {
