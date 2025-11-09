@@ -10,7 +10,11 @@ body {
 }
 
 body::-webkit-scrollbar {
-    display: none;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    scrollbar-width: none;
 }
 
 nav {

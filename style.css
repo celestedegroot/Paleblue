@@ -13,6 +13,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+html::-webkit-scrollbar {
+    scrollbar-width: none;
+}
+
 nav {
     height: 80px;
     width: 100%;
